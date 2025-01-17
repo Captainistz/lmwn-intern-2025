@@ -1,10 +1,6 @@
-
 # LMWN - Simple Go Project
 
 Summarize COVID-19 stats using Go, Gin framwork.
-
-
-
 
 ## Installation
 
@@ -19,7 +15,7 @@ Go to the project directory
 ```bash
   cd lmwn-intern-2025
 ```
-    
+
 Install dependencies using `make`
 
 ```bash
@@ -29,8 +25,9 @@ Install dependencies using `make`
 Start the server (dev)
 
 ```bash
-  make dev 
+  make dev
 ```
+
 ## Environment Variables
 
 To custom this project, you will need to add the following environment variables to your .env file
@@ -39,18 +36,17 @@ To custom this project, you will need to add the following environment variables
 
 `COVID_CASES_API_URL`
 
-
 ## API Reference
-
 
 #### Get COVID-19 summary
 
-```http
+```
   GET /covid/summary
 ```
+
 - **Description**: Retrieves a summarized data of COVID-19 cases.
-- **Response**: 
+- **Response**:
   - `200 OK`: Returns `Province` Object and `AgeGroup` Object
   - `500 Internal Server Error`: If an error occurs on the server.
 
-
+<p align="center">Made with 🤍</p>
