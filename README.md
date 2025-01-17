@@ -7,25 +7,25 @@ Summarize COVID-19 stats using Go, Gin framwork.
 Clone the project
 
 ```bash
-  git clone https://github.com/Captainistz/lmwn-intern-2025.git
+git clone https://github.com/Captainistz/lmwn-intern-2025.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd lmwn-intern-2025
+cd lmwn-intern-2025
 ```
 
 Install dependencies using `make`
 
 ```bash
-  make install
+make install
 ```
 
 Start the server (dev)
 
 ```bash
-  make dev
+make dev
 ```
 
 ## Environment Variables
@@ -41,7 +41,7 @@ To custom this project, you will need to add the following environment variables
 #### Get COVID-19 summary
 
 ```
-  GET /covid/summary
+GET /covid/summary
 ```
 
 - **Description**: Retrieves a summarized data of COVID-19 cases.
@@ -49,4 +49,6 @@ To custom this project, you will need to add the following environment variables
   - `200 OK`: Returns `Province` Object and `AgeGroup` Object
   - `500 Internal Server Error`: If an error occurs on the server.
 
+<br/>
+<br/>
 <p align="center">Made with 🤍</p>
